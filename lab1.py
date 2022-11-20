@@ -1,4 +1,5 @@
 # задача 1
+
 import math
 
 a, b = int(input()), int(input())
@@ -6,15 +7,18 @@ c = math.sqrt(b*b + a*a)
 print(c)
 
 #задача 2
+
 num = int(input())
 a = (num % 100) // 10
 print(a)
 
 #задача 3
+
 n = int(input())
 print((n // 2) * 2 + 2)
 
 #задача 4
+
 a = int(input())
 break1 = a // 2 * 5
 break2 = (a-1)//2 * 15
@@ -67,6 +71,7 @@ else:
     print(0)
 
 #задача 10
+
 a, b, c = int(input()), int(input()), int(input())
 if ( a <= b and a<=c ):
     if (b <= c):
